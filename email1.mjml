@@ -1,0 +1,134 @@
+<mjml>
+<mj-head>
+     <mj-title>Email ex-1</mj-title>
+     <mj-attributes>
+       <mj-all font-family="Roboto, Helvetica,  Arial, sans-serif" font-weight="bold"/>
+     </mj-attributes>
+   </mj-head>
+    <mj-body>
+        <mj-container background-color="#e6e6e6">
+        <mj-wrapper padding-top="80px" padding-bottom="100px">
+
+        <!-- Header -->
+            <mj-section background-color="#fff"
+            padding-top="40px"
+        	padding-bottom="40px"
+        	vertical-align="middle">
+                <mj-column>
+                    <mj-image src="img/ngorder_logo.jpg" width="48px" alt="logo-ngorder"/>
+                </mj-column>
+            </mj-section>
+
+            <!-- Promo -->
+            <mj-hero
+            mode="fixed-height"
+            height="880px"
+            background-height="880px"
+            background-url="img/newsletter1.png"
+            background-color="#fff"
+            padding="0">
+                <mj-hero-content>
+                	<mj-text
+                	padding="80px 0 0 0px" 
+                    align="center" 
+                    font-size="40"
+                    font-weight="700" 
+                    color="#fff"
+                    text-transform="uppercase" 
+                    >
+                        Promo Upgrade
+                        <p style="padding-top:20px;"
+                        
+                        >platinum</p>
+                    	
+                    </mj-text>
+                    <mj-button 
+                    border-radius="50px"
+                    padding="540px 0 0 0"
+                    inner-padding="15px 35px"
+                    font-size="16px"
+                    background-color="none"
+                    border="1px solid #fff" 
+                    color="white"
+                    href="#">
+            Lihat Promo
+          </mj-button>
+          <mj-text
+padding="20px"
+font-weight="100" 
+align="center" 
+color="#f5f5f5"
+font-size="12"
+          >
+              Promo berlaku hanya pada tanggal 17 - 19 April 2017
+          </mj-text>
+                </mj-hero-content>
+            </mj-hero>
+
+            <!-- share -->
+		<mj-section
+		padding-bottom="0"
+			background-color="#fff"
+            padding-top="40px"
+            vertical-align="middle">
+        	<mj-column>
+        	<mj-text
+        	font-weight="600"
+        	align="center" 
+            font-size="20"
+            color="#333">
+        	Bagikan
+        	</mj-text>
+        	</mj-column>
+		</mj-section>
+		<!-- share icon-->
+		<mj-section
+		background-color="#fff"
+		padding-top="0"
+        	padding-bottom="46px"
+        	vertical-align="middle">
+        	<mj-column>
+        	<mj-social 
+        	display="facebook twitter instagram google pinterest" 
+        	text-mode="false"
+        	icon-size="36px"
+        	inner-padding="10px"
+        	border-radius="50%"/>
+        	</mj-column> 
+        	</mj-section>
+
+		<!-- footer -->
+
+		<mj-section
+		background-color="#f5f5f5"
+		padding-top="50px"padding-bottom="50px"
+		vertical-align="middle">
+		<mj-column>
+		    <mj-text
+		    color="#777"
+		    padding="0 40px"
+		    font-size="12px"
+		    font-weight="normal">
+		        <p>Alamat surat :
+		        </br>Perum Pondok Indah Mulyorejo Mandiri, Blok C 11, Malang
+		        </br>16787 #11</p>
+		        <p> </p>
+		        <p>Tambahkan email kami ke kontak kalian <span style="color: #6699FF; text-decoration: underline">ngorder@ngorder.id</span></p>
+		        <p>
+		        <a href="#" style="font-weight: bold; color: inherit; margin-right: 4px;">
+            	BLOG</a>
+            	<a href="#"  style="font-weight: bold; color: inherit; margin-right: 4px;">
+            	BANTUAN</a>
+            	<a href="#"  style="font-weight: bold; color: inherit; margin-right: 4px;">
+            	BERHENTI LANGGANAN</a>
+		        </p>
+		        <p> </p>
+		        <p>copyright &copy 2017 Ngorder.id</p>
+          
+		    </mj-text>
+		    </mj-column>
+		</mj-section>
+            </mj-wrapper>
+        </mj-container>
+    </mj-body>
+</mjml>
